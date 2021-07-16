@@ -1,0 +1,54 @@
+{
+  "quick-pack:/cce/internal/x/cc.js": {
+    "imports": {},
+    "physicalLocation": "cce/internal/x/cc.js",
+    "mTimestamp": 1626400082603,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/cc"
+  },
+  "assets/GuideTest.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/GuideTest.js",
+    "mTimestamp": 1626400688858
+  },
+  "quick-pack:/cce/internal/code-quality/cr.js": {
+    "imports": {},
+    "physicalLocation": "cce/internal/code-quality/cr.js",
+    "mTimestamp": 1626403986558
+  },
+  "assets/scripts/GuideTest.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js",
+      "cce:/internal/code-quality/cr.mjs": "quick-pack:/cce/internal/code-quality/cr.js",
+      "./GuideLayer": "assets/scripts/GuideLayer.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/GuideTest.js",
+    "mTimestamp": 1626406527415
+  },
+  "assets/scripts/typescript.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/typescript.js",
+    "mTimestamp": 1626406530656
+  },
+  "quick-pack:/cce/internal/x/prerequisite-imports.js": {
+    "imports": {
+      "file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts": "assets/scripts/GuideTest.js",
+      "file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts": "assets/scripts/GuideLayer.js"
+    },
+    "physicalLocation": "cce/internal/x/prerequisite-imports.js",
+    "mTimestamp": 1626407077491,
+    "isEntry": true,
+    "exposeAs": "cce:/internal/x/prerequisite-imports"
+  },
+  "assets/scripts/GuideLayer.js": {
+    "imports": {
+      "cc": "quick-pack:/cce/internal/x/cc.js"
+    },
+    "physicalLocation": "fs/0/assets/scripts/GuideLayer.js",
+    "mTimestamp": 1626407077564
+  }
+}

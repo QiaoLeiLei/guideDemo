@@ -1,0 +1,568 @@
+debug: Fri, 16 Jul 2021 01:47:51 GMT
+debug: Project: /Users/qiao/Documents/CreatorDemo/GuideDemo
+debug: Targets: editor,preview
+debug: Packer deriver version file lost or format incorrect: Error: ENOENT: no such file or directory, open '/Users/qiao/Documents/CreatorDemo/GuideDemo/temp/programming/packer-driver/VERSION'
+debug: Clearing out the targets...
+debug: Engine path: /Applications/CocosCreator/Creator/3.1.1/CocosCreator.app/Contents/Resources/resources/3d/engine
+debug: Initializing target [Editor]
+debug: Loading cache
+debug: Module record file loaded failed with error: Error: ENOENT: no such file or directory, open '/Users/qiao/Documents/CreatorDemo/GuideDemo/temp/programming/packer-driver/targets/editor/modules.json'
+debug: Loading cache costs 0.6958400011062622ms.
+debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones
+debug: Initializing target [Preview]
+debug: Loading cache
+debug: Module record file loaded failed with error: Error: ENOENT: no such file or directory, open '/Users/qiao/Documents/CreatorDemo/GuideDemo/temp/programming/packer-driver/targets/preview/modules.json'
+debug: Loading cache costs 0.758942000567913ms.
+debug: Sync engine features: base,gfx-webgl,gfx-webgl2,3d,2d,ui,particle,physics-ammo,physics-2d-box2d,intersection-2d,primitive,profiler,particle-2d,audio,video,webview,tween,terrain,tiled-map,spine,dragon-bones
+debug: Pulling asset-db.
+debug: Fetch asset-db cost: 4.5760829988867044ms.
+debug: Build iteration starts.
+Number of accumulated asset changes: 0
+Feature changed: false
+debug: Target(editor) build started.
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Target(editor) ends with cost 99.61668499931693ms.
+debug: Target(preview) build started.
+debug: Inspect cce:/internal/x/cc
+debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
+debug: Resolve cce:/internal/x/cc-fu/gfx-webgl2 from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl2.
+debug: Resolve cce:/internal/x/cc-fu/3d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/3d.
+debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
+debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
+debug: Resolve cce:/internal/x/cc-fu/particle from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle.
+debug: Resolve cce:/internal/x/cc-fu/physics-ammo from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-ammo.
+debug: Resolve cce:/internal/x/cc-fu/physics-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-framework.
+debug: Resolve cce:/internal/x/cc-fu/wait-for-ammo-instantiation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/wait-for-ammo-instantiation.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-box2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-box2d.
+debug: Resolve cce:/internal/x/cc-fu/physics-2d-framework from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/physics-2d-framework.
+debug: Resolve cce:/internal/x/cc-fu/intersection-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/intersection-2d.
+debug: Resolve cce:/internal/x/cc-fu/primitive from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/primitive.
+debug: Resolve cce:/internal/x/cc-fu/profiler from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/profiler.
+debug: Resolve cce:/internal/x/cc-fu/particle-2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/particle-2d.
+debug: Resolve cce:/internal/x/cc-fu/audio from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/audio.
+debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
+debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
+debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tween.
+debug: Resolve cce:/internal/x/cc-fu/terrain from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/terrain.
+debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/tiled-map.
+debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
+debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Target(preview) ends with cost 55.87174799852073ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:10:25 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/GuideTest.ts.
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/GuideTest.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/GuideTest.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 77.86722999997437ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:09 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:10:25 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/GuideTest.ts.
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/GuideTest.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/GuideTest.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 266.86977199837565ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:25 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:10:57 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 32.87685400061309ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:25 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:10:57 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 58.20843599922955ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:57 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:21:37 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts. Last mtime: Fri Jul 16 2021 09:58:08 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:09:19 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 57.53264299966395ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:10:57 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:21:37 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts. Last mtime: Fri Jul 16 2021 09:58:08 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:09:19 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 88.42773099988699ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:21:37 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:27:07 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts. Last mtime: Fri Jul 16 2021 10:09:19 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:14:48 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 43.618841998279095ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:21:37 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:27:07 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts. Last mtime: Fri Jul 16 2021 10:09:19 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:14:48 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 62.16604300029576ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:27:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:30:32 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts. Last mtime: Fri Jul 16 2021 10:14:48 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:18:13 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 41.562744999304414ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:27:07 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:30:32 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts. Last mtime: Fri Jul 16 2021 10:14:48 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:18:13 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 84.75302499905229ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:30:32 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:31:26 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 43.51046299934387ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:30:32 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:31:26 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 53.126606998965144ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:31:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:47:11 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 10:19:09 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:34:51 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 104.48079400137067ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:31:26 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:47:11 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 10:19:09 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:34:51 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 91.95067100040615ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:47:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:53:03 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 10:34:51 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:40:44 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 131.60293499939144ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:47:11 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:53:04 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 10:34:51 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:40:44 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 90.24983899854124ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:53:03 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:56:52 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 10:40:44 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:44:32 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 58.630215998739004ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:53:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:56:52 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 10:40:44 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:44:32 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 125.87440699897707ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:56:52 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:05:23 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts. Last mtime: Fri Jul 16 2021 10:18:13 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:53:04 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 10:44:32 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:49:46 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve ./GuideLayer from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Target(editor) ends with cost 138.4305839985609ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:56:52 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:05:23 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 10:44:32 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:49:46 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts. Last mtime: Fri Jul 16 2021 10:18:13 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:53:04 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Inspect cce:/internal/code-quality/cr.mjs
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve ./GuideLayer from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Target(preview) ends with cost 160.70181100070477ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:05:23 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:08:27 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 10:49:46 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:56:09 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 109.33560900017619ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:05:23 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:08:27 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 10:49:46 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:56:09 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 120.24145000055432ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:08:27 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:09:37 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 10:56:09 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:57:19 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 86.11146599985659ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:08:27 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:09:37 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 10:56:09 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 10:57:19 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 102.56943400017917ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:09:37 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:43:36 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 10:57:19 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 11:28:44 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts. Last mtime: Fri Jul 16 2021 10:53:04 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 11:10:04 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve ./GuideLayer from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Target(editor) ends with cost 177.40941399894655ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:09:37 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:43:36 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 10:57:19 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 11:28:44 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts. Last mtime: Fri Jul 16 2021 10:53:04 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 11:10:04 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve ./GuideLayer from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Target(preview) ends with cost 210.7732139993459ms.
+debug: Dispatch build request for time accumulated 2 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 2
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:43:36 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:47:44 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 11:28:44 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 11:35:11 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts. Last mtime: Fri Jul 16 2021 11:10:04 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 11:35:25 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve ./GuideLayer from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Target(editor) ends with cost 106.86642600037158ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:43:36 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:47:44 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 11:28:44 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 11:35:11 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts. Last mtime: Fri Jul 16 2021 11:10:04 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 11:35:25 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve ./GuideLayer from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Target(preview) ends with cost 154.66991499997675ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:47:44 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:47:47 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/typescript.ts.
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/typescript.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/typescript.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/typescript.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 24.02869600057602ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:47:44 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:47:47 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/typescript.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/typescript.ts.
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/typescript.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/typescript.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/typescript.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 50.651370000094175ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:47:47 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:47:57 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Target(editor) ends with cost 13.132270999252796ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:47:47 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:47:57 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Target(preview) ends with cost 21.24277500063181ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:47:57 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:48:47 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 11:35:11 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 11:35:58 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 77.29207300022244ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:47:57 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:48:47 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 11:35:11 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 11:35:58 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 85.38432499952614ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:48:47 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:54:33 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 11:35:58 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 11:42:16 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 66.26455300115049ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:48:47 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:54:33 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 11:35:58 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 11:42:16 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 94.2652810011059ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:54:33 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:56:37 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 11:42:16 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 11:44:18 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 71.16818699985743ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:54:33 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:56:37 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 11:42:16 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 11:44:18 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 97.51903999969363ms.
+debug: Dispatch build request for time accumulated 1 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 1
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:56:37 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:56:54 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 11:44:18 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 11:44:36 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(editor) ends with cost 72.00362399965525ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 09:56:37 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 09:56:54 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts.
+debug: Resolve file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts from cce:/internal/x/prerequisite-imports as file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideTest.ts.
+debug: Detected change: file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts. Last mtime: Fri Jul 16 2021 11:44:18 GMT+0800 (中国标准时间), Current mtime: Fri Jul 16 2021 11:44:36 GMT+0800 (中国标准时间)
+debug: Inspect file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/qiao/Documents/CreatorDemo/GuideDemo/assets/scripts/GuideLayer.ts as cce:/internal/x/cc.
+debug: Target(preview) ends with cost 106.05199199914932ms.
